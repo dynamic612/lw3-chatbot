@@ -63,7 +63,7 @@ export default function Home() {
             );
           })}
 
-          {isLoading ? <div className="self-start  bg-gray-200 text-gray-800 w-max max-w-[18rem] rounded-md px-4 py-3 h-min">*thinking*</div> : ""}
+          {isLoading ? <div className="self-start  bg-gray-200 text-gray-800 w-max max-w-[18rem] rounded-md px-4 py-3 h-min">thinking...</div> : ""}
         </div>
         <div className="relative w-[80%] bottom-4 flex justify-center">
           <textarea value={theInput} onChange={(event) => setTheInput(event.target.value)} className="w-[85%] h-10 px-3 py-2 resize-none overflow-y-auto text-black bg-gray-300 rounded-1 outline-none" onKeyDown={Submit}>
