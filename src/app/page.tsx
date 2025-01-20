@@ -37,7 +37,7 @@ export default function Home() {
   };
 
   const Submit = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (event.key === "Emter") {
+    if (event.key === "Enter") {
       event?.preventDefault();
       callGetResponse();
     }
